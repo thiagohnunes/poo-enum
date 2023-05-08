@@ -1,3 +1,7 @@
+import riskanalysis.FullRiskAnalysis
+import riskanalysis.MinimalRiskAnalysis
+import riskanalysis.RiskAnalysis
+
 enum class RiskAnalysisType {
     MINIMAL {
         override fun instance() = MinimalRiskAnalysis()
